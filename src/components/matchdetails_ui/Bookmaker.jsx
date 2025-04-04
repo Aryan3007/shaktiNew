@@ -325,6 +325,7 @@ const BookmakerComponent = ({
       home_team: market?.eventDetails?.runners?.[0]?.name || "Unknown",
       away_team: market?.eventDetails?.runners?.[1]?.name || "Unknown",
       eventId: market?.eventId || "",
+      matchOddsMarketId: market?.eventDetails?.market?.id || "",
       marketId: market?.market?.id || "",
       selectionId: selectionId,
       stake: stake,
